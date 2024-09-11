@@ -1,0 +1,12 @@
+def summation(N):
+    if N==1:
+        return 1
+    else:
+        """ how to implement recursioon here
+        recursion added successfullly but how to implement and get correct answer"""
+    
+        sum=summation(N-1)+N
+        return sum
+
+    
+summation(5)
